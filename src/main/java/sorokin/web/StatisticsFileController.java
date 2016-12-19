@@ -46,7 +46,7 @@ public class StatisticsFileController {
             session.setAttribute("filters", filters);
             session.setAttribute("path", path);
         }
-        catch (IOException | PropertyVetoException | SQLException e){
+        catch (Throwable e){
             model.addAttribute("error", e.getMessage());
             return "redirect:error.jsp";
         }
