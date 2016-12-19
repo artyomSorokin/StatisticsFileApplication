@@ -43,7 +43,7 @@ public class HandleTextFromUserController {
             model.addAttribute("fileEntities", fileEntities);
 
         }
-        catch (IOException | PropertyVetoException | SQLException e){
+        catch (Throwable e){
             model.addAttribute("error", e.getMessage());
             return "redirect:error.jsp";
         }
