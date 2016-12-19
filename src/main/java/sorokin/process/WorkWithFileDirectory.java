@@ -19,8 +19,7 @@ public class WorkWithFileDirectory {
             } else if (dir.isDirectory()) {
                 File[] files = dir.listFiles();
 
-                for (File file : files) {
-                    System.out.println(file.getAbsolutePath());
+                for (File file : files) {                    
                     if (file.isFile()) {
                         if (file.getName().endsWith(".txt")) {
                             list.add(file.getAbsolutePath());
