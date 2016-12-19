@@ -5,8 +5,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import sorokin.Service.StatisticsFileServiceImpl;
-import sorokin.Service.StatisticsLineService;
+import sorokin.service.StatisticsFileServiceImpl;
+import sorokin.service.StatisticsLineService;
 import sorokin.entity.StatisticsLineEntity;
 
 import java.util.List;
