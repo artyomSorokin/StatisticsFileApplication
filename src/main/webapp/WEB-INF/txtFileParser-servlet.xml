@@ -9,9 +9,9 @@
        http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
     <context:component-scan base-package="sorokin.web" />
 
-    <bean id="statisticsFileService" class="sorokin.Service.StatisticsFileServiceImpl"/>
-    <bean id="statisticsLineService" class="sorokin.Service.StatisticsLineServiceImpl"/>
-    <bean id="statisticsTextFromUserService" class="sorokin.Service.StatisticsTextFromUserServiceImpl"/>
+    <bean id="statisticsFileService" class="sorokin.service.StatisticsFileServiceImpl"/>
+    <bean id="statisticsLineService" class="sorokin.service.StatisticsLineServiceImpl"/>
+    <bean id="statisticsTextFromUserService" class="sorokin.service.StatisticsTextFromUserServiceImpl"/>
     <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping" />
     <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter" />
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
