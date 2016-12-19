@@ -31,8 +31,7 @@ public class StatisticsLine {
         String pretender = strArr.get(0);
         for (int i = 1; i < strArr.size(); i++) {
             if (pretender.length() > strArr.get(i).length()) {
-                pretender = strArr.get(i);
-                System.out.println(pretender);
+                pretender = strArr.get(i);                
             }
         }
         return pretender;
