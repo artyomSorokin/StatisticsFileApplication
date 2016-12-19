@@ -8,7 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import sorokin.Service.StatisticsTextFromUserService;
+import sorokin.service.StatisticsTextFromUserService;
 import sorokin.entity.StatisticsFileEntity;
 
 import java.util.List;
