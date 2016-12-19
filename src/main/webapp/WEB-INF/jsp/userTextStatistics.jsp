@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="/resources/css/tableStyle.css" />
 </head>
 <body>
-<form method="post">
+<form method="post" accept-charset="UTF-8">
     Put your text inside
     <textarea name="text" rows="10" cols="40"></textarea>
     <input type="submit" value="Query" />
