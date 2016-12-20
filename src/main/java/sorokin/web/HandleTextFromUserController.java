@@ -10,10 +10,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import sorokin.service.StatisticsTextFromUserService;
 import sorokin.entity.StatisticsFileEntity;
-
-import java.beans.PropertyVetoException;
-import java.io.IOException;
-import java.sql.SQLException;
 import java.util.List;
 
 @Controller
