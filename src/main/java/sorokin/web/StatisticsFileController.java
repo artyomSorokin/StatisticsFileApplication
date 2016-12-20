@@ -10,9 +10,6 @@ import sorokin.entity.StatisticsFileEntity;
 import sorokin.filter.FilterName;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
-import java.beans.PropertyVetoException;
-import java.io.IOException;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
